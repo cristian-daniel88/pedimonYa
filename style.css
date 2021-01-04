@@ -1,0 +1,222 @@
+body {
+  overflow-x: hidden;
+}
+* {
+  box-sizing: border-box;
+}
+.bg-warning {
+  background-color: #ffe28a !important;
+}
+
+.bg-primary {
+  background-color: #084cb1 !important;
+}
+
+header {
+  width: auto;
+  height: auto;
+  padding-top: 10px;
+  
+}
+
+#logo {
+    margin-left: 10px;
+}
+
+.nav {
+  margin-top: 10px;
+}
+
+.nav-item4 {
+  position: relative;
+}
+
+.numerito {
+  position: absolute;
+  top: 7px;
+  left: 37px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #ff0000;
+  color: #ffffff;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  line-height: 15px;
+}
+
+span {
+  color: #0d6efd;
+}
+
+span:hover {
+  color: #0d6efd;
+}
+
+#section-1 {
+  height: auto;
+  padding-top: 60px;
+}
+
+#pedimon-text {
+    margin-left: 10px;
+}
+
+
+#pedimon-text img {
+  width: 400px;
+}
+
+#pikachu img {
+    margin-left: 10px;
+}
+
+#pikachu img {
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+#los-quiero-atrapar {
+  text-align: end;
+  margin-bottom: 20px;
+  
+}
+
+
+
+
+#section-2 {
+  height: auto;
+}
+
+#h2-container {
+  margin-left: 10px;
+  padding-top: 20px;
+  text-align: center;
+  color: #ffe28a;
+    
+}
+
+#h2-container p{
+  font-size: 20px;
+  color: #ffffff;
+}
+
+#info-icon-container div {
+  text-align: center;
+  color: #ffffff;
+}
+
+#info-icon-container div div p {
+   margin-top: 15px;
+   
+  }
+
+  #info-icon-container div div {
+    width: 50%;
+    margin: auto;
+  }
+
+
+
+  .cardContainer {
+    width: 80vw;
+  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    margin: auto;
+    width: 200px;
+    height: 300px;
+    border-radius: 15px;
+    margin-top: 15px;
+    background-color: #FBAB7E;
+    background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.60);
+}
+
+.titulo {
+    width: 160px;
+    margin: 15px auto;
+    padding-bottom: 4px;
+    border-radius: 4px;
+    border-bottom: 4px solid #000;
+}
+
+.imagen {
+    display: block;
+    width: 160px;
+    margin: 15px auto;
+    padding: 15px;
+    transition: 0.5s transform;
+}
+
+.imagen:hover {
+    transform: scale(1.2, 1.2);
+}
+
+#deleteProductButton {
+  width: 100px;
+  height: auto;
+  font-size: 10px;
+  margin: auto;
+}
+
+.ul-1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.ul-1 li {
+  list-style: none;
+  margin: auto;
+}
+
+
+
+
+#section-3 {
+  text-align: center;
+  
+}
+
+#section-3 h4 {
+  text-decoration: currentColor;
+}
+
+#listContainer, #totalContainer {
+  display: flex;
+  flex-wrap: wrap;
+ 
+  justify-content: center;
+  margin: auto;
+ 
+}
+
+.img-tabla-1 img {
+  width: 50px;
+}
+
+.icon-cancel-circle {
+  width:10% ;
+  color: #000;
+  margin-left: 15px;
+  margin-top: 5px;
+ 
+}
+
+.icon-cancel-circle:hover {
+  cursor: pointer;
+}
+
+.container-buton-submit{
+  
+  text-align: end;
+  margin-bottom: 20px;
+}
+
