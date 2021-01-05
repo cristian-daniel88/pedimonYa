@@ -230,3 +230,39 @@ span:hover {
   margin-right: 10px;
 }
 
+
+#section-4{
+  display: flex;
+  flex-direction: column;
+}
+
+.container-vende-productos {
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.inputs-container {
+  
+  padding-left: 17px;
+  
+  
+}
+
+.mb-3 {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 90%;
+  
+}
+
+.input-numeros {
+  width: 90%;
+  margin-bottom: 20px;
+}
+
+.contenedor-submit {
+  display: flex !important;
+  justify-content: flex-end;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}

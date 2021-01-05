@@ -97,7 +97,7 @@
       <h4>Tus compras:</h4>
       <div class="row">
         <div class="col-lg-1"></div>
-        <div class="col-lg-10" id="listContainer"></div>
+        <div class="col-lg-10" id="listContainer"><div style="color: #b8860b;"> No compraste aún</div></div>
         <div class="col-lg-1"></div>
       </div>
       <div class="row">
@@ -108,13 +108,101 @@
       <div class="container-buton-submit wrap">
         <div class="col-lg-1"></div>
         <div class="col-lg-10">
-          <button id="buton-submit" type="button" class="btn btn-success">Comprar</button>
+          <button id="buton-submit" type="button" class="btn btn-success">
+            Comprar
+          </button>
         </div>
-  
+
         <div class="col-lg-1"></div>
       </div>
     </section>
-   
+    <section id="section-4">
+      <div class="container-vende-productos"><h4>Vendé tus productos</h4></div>
+      <div class="row">
+        <div class="col-lg-3"></div>
+        <div class="col-lg-6 inputs-container bg-light bg-gradient">
+          <div class="form-floating mb-3">
+            <input
+              type="email"
+              class="form-control"
+              id="floatingInput"
+              placeholder="name@example.com"
+            />
+            <label for="floatingInput"
+              ><div style="display: flex">
+                Nombre
+                <p
+                  id="alerta-Nombre"
+                  style="margin-left: 10px; color: rgb(236, 32, 32)"
+                ></p></div
+            ></label>
+          </div>
+          <div class="form-floating input-numeros">
+            <input
+              type="number"
+              class="form-control"
+              id="floatingPassword"
+              placeholder="Password"
+            />
+            <label for="floatingPassword"
+              ><div style="display: flex">
+                Precio $
+                <p
+                  id="alerta-Precio"
+                  style="margin-left: 10px; color: rgb(236, 32, 32)"
+                ></p>
+              </div>
+            </label>
+          </div>
+          <div class="form-floating input-numeros">
+            <input
+              type="number"
+              class="form-control"
+              id="floatingPassword2"
+              placeholder="Password"
+            />
+            <label for="floatingPassword"
+              ><div style="display: flex">
+                Stock
+                <p
+                  id="alerta-Stock"
+                  style="margin-left: 10px; color: rgb(236, 32, 32)"
+                ></p>
+              </div>
+            </label>
+          </div>
+          <div class="form-floating input-numeros">
+            <input
+              type="number"
+              class="form-control"
+              id="floatingPassword3"
+              placeholder="Password"
+            />
+            <label for="floatingPassword"
+              ><div style="display: flex">
+                Id
+                <p
+                  id="alerta-Id"
+                  style="margin-left: 10px; color: rgb(236, 32, 32)"
+                ></p></div
+            ></label>
+          </div>
+          <div class="contenedor-submit">
+            <button id="botonVenta" type="submit" class="btn btn-primary mb-1">
+              Confirm identity
+            </button>
+          </div>
+        </div>
+        <div class="col-lg-3"></div>
+      </div>
+    </section>
+    <section class="section-5">
+      <div style="text-align: center;"><h4>Tus ventas:</h4></div>
+      <div class="row" id="cardContainerVentas"><div style="text-align: center ;color: #b8860b; margin-bottom: 15px;">Todavía no has publicado nada</div></div>
+    </section>
+    
+      
+    </section>
 
     <footer></footer>
     <script
