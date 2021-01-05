@@ -268,3 +268,6 @@ showList(pokemones);
 document.addEventListener("click", restarStockenObjeto);
 document.addEventListener("click", borrarPokeLista);
 butonSubmit.addEventListener('click', ()=> arrayListadeCompras.length === 0 ? alert('Debes comprar aunque sea uno') : location.reload());
+
+
+
