@@ -266,3 +266,41 @@ span:hover {
   margin-right: 15px;
   margin-bottom: 15px;
 }
+
+footer {
+  text-align: center;
+  margin-top: 30px;
+  padding-top: 30px;
+  
+}
+.container-contacto {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: auto;
+  padding-right: 40px;
+}
+.container-contacto h6 {
+  color: #ffffff;
+  margin-top: 20px;
+  font-size: 25px;
+}
+.container-contacto div {
+  width: 300px;
+  padding-left: 50px;
+  color: #ffffff;
+}
+
+.container-contacto span {
+  color: #ffffff;
+  width: 300px;
+}
+
+li {
+  list-style: none;
+}
+
+.icon-phone {
+  margin-right: 50px;
+}
