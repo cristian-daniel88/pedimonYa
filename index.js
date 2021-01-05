@@ -174,7 +174,7 @@ function showList(array) {
   <div class="card" key=${
     item.id
   }><p class="titulo">${item.nombre.toUpperCase()} $${item.precio} 
-  stock: ${item.stock <= 0 ? "no hay" : item.stock}</p>
+  stock: ${item.stock <= 0 ? `<p class="sold-out">SOLD OUT</p>` : item.stock}</p>
   <img class="imagen" src="https://pokeres.bastionbot.org/images/pokemon/${
     item.id
   }.png">
