@@ -162,9 +162,10 @@ span:hover {
 
 #deleteProductButton {
   width: 100px;
-  height: auto;
+  height: 20px;
   font-size: 10px;
   margin: auto;
+  line-height: 0px;
 }
 
 .ul-1 {
@@ -187,7 +188,7 @@ span:hover {
 }
 
 #section-3 h4 {
-  text-decoration: currentColor;
+  margin-top: 15px;
 }
 
 #listContainer, #totalContainer {

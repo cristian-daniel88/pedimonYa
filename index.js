@@ -178,8 +178,8 @@ function showList(array) {
   <img class="imagen" src="https://pokeres.bastionbot.org/images/pokemon/${
     item.id
   }.png">
-  <button id='deleteProductButton'>Agregar</button></div></li>`
-    )
+  <button id='deleteProductButton'type="button" class="btn btn-success">Agregar</button></div></li>`
+    ) 
     .join(" ")}</ul>`);
 }
 
