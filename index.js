@@ -448,9 +448,42 @@ function validarIdInput2(params) {
       }</p>
       <img class="imagen" src="https://pokeres.bastionbot.org/images/pokemon/${
         item.id
-      }.png">
-     </div></li>`
+      }.png"><div class="boton-editar-venta" key="${item.id}"><button id= 'deleteVentas' style="width: 100%;" class="btn btn-secondary">borrar</button></div>
+     </div> </li>`
       )
       .join(" ")}</ul>`;
   }
+}
+
+
+document.addEventListener('click', (e)=> {
+  if (e.target.id === "deleteVentas") {
+   
+    const elementoABuscar = e.target.parentNode.attributes.key.value;
+    const resultado = arrayListaVentas.find((item) => item.id == elementoABuscar);
+    const indexAEliminar = arrayListaVentas.indexOf(resultado);
+    arrayListaVentas.splice(indexAEliminar, 1 ); 
+    pintarVentas(arrayListaVentas)
+    
+   
+  }
+
+})
+
+function pintarVentas(params) {
+  cardContainerVentas.innerHTML = `<ul class='ul-1'> ${params
+    .map(
+      (item) => `<li >
+    <div class="card" key=${
+      item.id
+    }><p class="titulo">${item.nombre.toUpperCase()} $${item.precio} 
+    stock: ${
+      item.stock <= 0 ? `<p class="sold-out">SOLD OUT</p>` : item.stock
+    }</p>
+    <img class="imagen" src="https://pokeres.bastionbot.org/images/pokemon/${
+      item.id
+    }.png"><div class="boton-editar-venta" key="${item.id}"><button id= 'deleteVentas' style="width: 100%;" class="btn btn-secondary">borrar</button></div>
+   </div> </li>`
+    )
+    .join(" ")}</ul>`
 }
