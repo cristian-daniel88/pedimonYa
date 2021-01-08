@@ -2,6 +2,8 @@ body {
   overflow-x: hidden;
   padding: 0 , 10%;
   margin: auto;
+  background-color: #ffe28a !important;
+  
 }
 
 .row {
