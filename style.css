@@ -1,6 +1,7 @@
 body {
   overflow-x: hidden;
   padding: 0 , 10%;
+  position: absolute;
 }
 * {
   box-sizing: border-box;
