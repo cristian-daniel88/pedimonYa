@@ -1,7 +1,11 @@
 body {
   overflow-x: hidden;
   padding: 0 , 10%;
-  position: sticky;
+  margin: auto;
+}
+
+.row {
+  margin-right: 0;
 }
 * {
   box-sizing: border-box;
